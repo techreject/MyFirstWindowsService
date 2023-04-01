@@ -17,7 +17,7 @@ namespace MyFirstWindowsService
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new Service1()
+                new MyFirstWindowsService()
             };
             ServiceBase.Run(ServicesToRun);
         }
